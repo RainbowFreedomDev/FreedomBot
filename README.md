@@ -1,6 +1,8 @@
 # FreedomBot
 The bot of freedom. Helps admins do their job easier.
 
+If there is any copyright infringement your Minecraft server/GitHub orginization shutdown!
+
 Copyright (c) FoxIshDaBest 2016 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
