@@ -1,16 +1,19 @@
 package com.FoxIshDaBest.FreedomBot;
 
-// FreedomBot Imports
 import com.FoxIshDaBest.FreedomBot.Commands.*;
 import com.FoxIshDaBest.FreedomBot.Listener.BotListener;
-
-// Java Imports
 import java.util.logging.Level;
-
-// Bukkit Imports
 import org.bukkit.Server;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import com.FoxIshDaBest.FreedomBot.BotUtil;
+import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.event.player.PlayerLoginEvent;
 
 public class FreedomBot extends JavaPlugin implements Listener {
 
