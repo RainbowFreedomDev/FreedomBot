@@ -28,8 +28,6 @@ public class FreedomBot extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        final PluginManager pm = plugin.getServer().getPluginManager();
-        pm.registerEvents(new BotListener(), plugin);
         plugin.getLogger().log(Level.INFO, "FreedomBot v{0} has been enabled!", plugin.getDescription().getVersion());
 
     this.getCommand("freedombot").setExecutor(new Command_freedombot(plugin));
